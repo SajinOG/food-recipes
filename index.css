@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 5em 5em;
+}
+
+.heading h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: #85b54d;
+  font-weight: bolder;
+  /* padding: 0.2; */
+}
+
+.heading input {
+  width: 40%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  padding: 5px 0;
+  border-radius: 10px;
+}
+
+.heading button {
+  width: 82px;
+  font-size: 2em;
+  font-weight: 400;
+  border: none;
+  margin: 4px;
+  height: 46px;
+  color: #a7a9ac;
+  background-color: #ffffff;
+}
+
+.newNav {
+  padding: 0 3.4em;
+}
+
+.newNav nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 20px;
+  padding: 20px 0;
+  /* background-color: #85b54d; */
+  column-gap: 0.1rem;
+}
+
+.newNav nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 23px;
+  padding: 5px;
+  color: black;
+  border-right: 2px solid white;
+  background:#85b54d; ;
+}
+
+/* .container{
+  padding: 5px;
+} */
+
+.newNav nav ul li {
+  list-style: none;
+}
+.twitter-link {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 5em 0 0 0em;
+  gap: 30px;
+}
+
+.twitter-link a img{
+ border-radius: 5px;
+ width: 5vw;
+}
+
+.twitter-link button{
+  background-color: red;
+  color: white;
+  width: 6vw;
+  border: none;
+  font-size: 20px;
+  border-radius: 2px;
+
+}
+.twitter-link .new-btn{
+  background-color: #1260cc;
+  padding: 0.1rem;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 100;
+  
+}
+
+div .about-explain h1 {
+  padding: 4em 0 0 0;
+}
+
+.about-explain p {
+  font-size: 20px;
+  line-height: 25px;
+}
+.kitchen-coma {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 0;
+}
+.container .kitchen-coma img {
+  width: 45vw;
+  margin: 1em 0;
+}
+
+.kitchen-coma h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #85b54d;
+}
+
+.about-explain {
+  width: 50vw;
+}
+
+.about-explain h1 {
+  color: #85b54d;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.about-explain {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 0em 5em;
+  gap: 2rem;
+}
+
+.ing-gem {
+  padding: 0em 5em;
+  width: 70vw;
+}
+
+.ing-gem h1 {
+  color: #85b54d;
+}
+
+.ing-gem p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.ing-gem ul {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+button{
+  display: flex;
+}
+
+.link-about .twitter-link{
+  margin:7rem 30rem 0 0;
+}
+
+.link-about a button img{
+  width: 1.5rem;
+  height: 3vh;
+}
+
+.link-about a{
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 50rem;
+}
+
+.like{
+  background-color: blue;
+
+}
+/* .container .about-explain{
+
+} */
